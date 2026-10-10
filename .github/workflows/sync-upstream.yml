@@ -22,8 +22,8 @@ jobs:
       - name: Sync upstream changes
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          upstream_sync_repo: zarfadev/MobaXterm-Keygen  # 上游仓库
-          upstream_sync_branch: main                      # 上游分支名
-          target_sync_branch: main                        # 你的 Fork 分支名
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }}  # 自动令牌，用于推送
-          test_mode: false                                # 正式运行
+          upstream_sync_repo: bobhe2016/net-topo-cmd-generator-web  # 上游仓库
+          upstream_sync_branch: main                                # 上游分支名
+          target_sync_branch: main                                  # 你的 Fork 分支名
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}            # 自动令牌，用于推送
+          test_mode: false                                          # 正式运行
